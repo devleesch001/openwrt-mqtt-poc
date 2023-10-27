@@ -22,7 +22,12 @@ make package/poc_mqtt/compile -j6
 Probleme is very long to compile every time because it compile all dependecy.
 
 > on Intel® Core™ i5-8250U CPU @ 1.60GHz × 8
+>
 > 16,0 GiB ram
+>
 > Ubuntu 22.04.3 LTS 64-bit
 >
-> make package/poc_mqtt/compile -j6  621,76s user 168,71s system 186% cpu 7:04,82 total
+> 1To SSD nvme :  /dev/nvme0n1p2 959786032 396387556 514570268  44% /
+>
+
+compilation time : `make package/poc_mqtt/compile -j6  621,76s user 168,71s system 186% cpu 7:04,82 total`
