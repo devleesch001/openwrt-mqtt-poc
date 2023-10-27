@@ -16,7 +16,7 @@ define Package/poc_mqtt
 	#DEFAULT:=y
 	CATEGORY:=Utilities
 	TITLE:=POC for program use mqtt client lib in openwrt.
-	DEPENDS:=+libmosquitto-nossl
+	DEPENDS:=+libmosquitto-ssl
 endef
 
 define Package/poc_mqtt/description
